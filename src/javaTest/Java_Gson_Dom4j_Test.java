@@ -71,225 +71,7 @@ public class Java_Gson_Dom4j_Test {
                 List<HDD_All> hddFullList = new ArrayList<>();
 
                 /*開始放入資料*/
-                hddFullList.add(new HDD_All(10001, "WD5000LPCX", "藍標", 2.5, "500 GB", "傳統硬碟", 5400, 16, "CMR", "WD", "筆記型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(10002, "ST500LM030", "新梭魚", 2.5, "500 GB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10003, "MQ01ACF050", "筆電型", 2.5, "500 GB", "傳統硬碟", 7200, 16, "CMR", "Toshiba", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10004, "WD5000LPLX", "黑標", 2.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "WD", "筆記型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(10005, "ST500LM034", "新梭魚 Pro", 2.5, "500 GB", "傳統硬碟", 7200, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(10006, "ST500LX025", "火梭魚", 2.5, "500 GB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(10101, "WD10SPZX", "藍標", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "WD", "筆記型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(10102, "ST1000LM048", "新梭魚", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10103, "MQ04ABF100", "筆電型", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "Toshiba", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10104, "WD10J31X", "藍標 SSHD", 2.5, "1 TB", "固態混合硬碟", 5400, 64, "CMR", "WD", "筆記型電腦", 3, "已停產"));
-                hddFullList.add(new HDD_All(10105, "WD10JPLX", "黑標", 2.5, "1 TB", "傳統硬碟", 7200, 32, "CMR", "WD", "筆記型電腦", 5, "已停產"));
-                hddFullList.add(new HDD_All(10106, "WD10SPSX", "黑標", 2.5, "1 TB", "傳統硬碟", 7200, 64, "SMR", "WD", "筆記型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(10107, "ST1000LM049", "新梭魚 Pro", 2.5, "1 TB", "傳統硬碟", 7200, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(10108, "ST1000LX015", "火梭魚", 2.5, "1 TB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(10109, "WD1001X06XDTL", "黑標 2 Dual Drive", 2.5, "128 GB + 1 TB", "混和架構硬碟", 5400, 8, "CMR", "WD", "筆記型電腦", 5, "已停產"));
-
-                hddFullList.add(new HDD_All(10201, "WD20SPZX", "藍標", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "WD", "筆記型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(10202, "ST2000LM015", "新梭魚", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10203, "MQ04ABD200", "筆電型", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "Toshiba", "筆記型電腦", 2, "可購得"));
-                hddFullList.add(new HDD_All(10204, "ST2000LX001", "火梭魚", 2.5, "2 TB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20001, "WD5000AZLX", "藍標", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20002, "ST500DM009", "新梭魚", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20003, "DT01ACA050", "桌上型", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20004, "WD5003AZEX", "黑標", 3.5, "500 GB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20005, "WD5000HHTZ", "迅猛龍", 3.5, "500 GB", "傳統硬碟", 10000, 64, "CMR", "WD", "桌上型電腦", 5, "已停產"));
-
-                hddFullList.add(new HDD_All(20101, "WD10EZEX", "藍標", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20102, "ST1000DM010", "新梭魚", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20103, "DT01ACA100", "桌上型", 3.5, "1 TB", "傳統硬碟", 7200, 32, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20104, "WD1003FZEX", "黑標", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20105, "ST1000DX002", "火梭魚", 3.5, "1 TB", "固態混合硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20106, "WD1000DHTZ", "迅猛龍", 3.5, "1 TB", "傳統硬碟", 10000, 64, "CMR", "WD", "桌上型電腦", 5, "已停產"));
-
-                hddFullList.add(new HDD_All(20201, "WD20EZAZ", "藍標", 3.5, "2 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20202, "ST2000DM008", "新梭魚", 3.5, "2 TB", "傳統硬碟", 7200, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20203, "DT01ACA200", "桌上型", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20204, "WD2003FZEX", "黑標", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20205, "ST2000DX002", "火梭魚", 3.5, "2 TB", "固態混合硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20206, "ST2000DM009", "新梭魚 Pro", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20207, "WD30EZRZ", "藍標", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20208, "ST3000DM007", "新梭魚", 3.5, "3 TB", "傳統硬碟", 7200, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20209, "DT01ACA300", "桌上型", 3.5, "3 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(20301, "WD40EZRZ", "藍標", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20302, "ST4000DM004", "新梭魚", 3.5, "4 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20303, "MD04ACA400", "桌上型", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20304, "WD40E31X", "藍標 SSHD", 3.5, "4 TB", "固態混和硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "已停產"));
-                hddFullList.add(new HDD_All(20305, "WD4005FZBX", "黑標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20306, "ST4000DM006", "新梭魚 Pro", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20401, "WD60EZAZ", "藍標", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20402, "ST6000DM003", "新梭魚", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20403, "MD06ACA600", "桌上型", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20404, "WD6003FZBX", "黑標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20405, "ST6000DM004", "新梭魚 Pro", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20501, "ST8000DM004", "新梭魚", 3.5, "8 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20502, "MD06ACA800", "桌上型", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20503, "WD8001FZBX", "黑標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20504, "ST8000DM0004", "新梭魚 Pro", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20601, "MD06ACA10T", "桌上型", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
-                hddFullList.add(new HDD_All(20602, "WD101FZBX", "黑標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
-                hddFullList.add(new HDD_All(20603, "ST10000DM001", "新梭魚 Pro", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20701, "ST12000DM001", "新梭魚 Pro", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(20801, "ST14000DM001", "新梭魚 Pro", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30001, "WD1005FBYZ", "金標", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30002, "ST1000NM008", "企業號 7E2", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30003, "HUS722T1TALA604", "UltraStar DC HA210", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30004, "MG04ACA100N", "企業碟", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30101, "WD2005FBYZ", "金標", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30102, "ST2000NM008", "企業號 7E2", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30103, "HUS722T2TALA604", "UltraStar DC HA210", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30104, "MG04ACA200E", "企業碟", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30201, "ST3000NM000A", "企業號 7E8", 3.5, "3 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30202, "MG04ACA300E", "企業碟", 3.5, "3 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30203, "WD4003FRYZ", "金標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30204, "ST4000NM002A", "企業號 7E8", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30205, "HUS726T4TALA6L4", "UltraStar DC HC310", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30206, "MG04ACA400E", "企業碟", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30301, "WD6003FRYZ", "金標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30302, "ST6000NM021A", "企業號 7E8", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30303, "HUS726T6TALE6L4", "UltraStar DC HC310", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30304, "MG06ACA600E", "企業碟", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30401, "WD8004FRYZ", "金標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30402, "ST8000NM00A", "企業號 7E8", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30403, "HUS728T8TALE6L4", "UltraStar DC HC320", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30404, "MG06ACA800E", "企業碟", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30501, "WD102KRYZ", "金標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30502, "ST10000NM001G", "企業號 X10", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30503, "HUH721010ALE604", "UltraStar DC HC510", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30504, "MG06ACA10TE", "企業碟", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30601, "WD121KRYZ", "金標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30602, "ST12000NM001G", "企業號 X12", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30603, "HUH721212ALE604", "UltraStar DC HC520", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30604, "MG07ACA12TE", "企業碟", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30701, "WD141KRYZ", "金標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30702, "ST14000NM001G", "企業號 X14", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30703, "WUH721414ALE6L4", "UltraStar DC HC530", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30704, "MG07ACA14TE", "企業碟", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30801, "WD161KRYZ", "金標", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30802, "ST16000NM001G", "企業號 X16", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30803, "WUH721816ALE6L4", "UltraStar DC HC550", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30804, "MG08ACA16TE", "企業碟", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "Toshiba", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(30901, "WD181KRYZ", "金標", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30902, "ST18000NM000J", "企業號 X18", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
-                hddFullList.add(new HDD_All(30903, "WUH721818ALE6L4", "UltraStar DC HC550", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40001, "WD10EFRX", "紅標 Plus", 3.5, "1 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40002, "ST1000VN002", "那嘶狼", 3.5, "1 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(40101, "WD20EFAX", "紅標", 3.5, "2 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40102, "WD20EFRX", "紅標 Plus", 3.5, "2 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40103, "ST2000VN004", "那嘶狼", 3.5, "2 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40104, "WD20FFSX", "旗艦紅標", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40105, "ST2000NE0025", "那嘶狼 Pro", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40201, "WD30EFAX", "紅標", 3.5, "3 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40202, "WD30EFRX", "紅標 Plus", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40203, "ST3000VN007", "那嘶狼", 3.5, "3 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(40301, "WD40EFAX", "紅標", 3.5, "4 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40302, "WD40EFRX", "紅標 Plus", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40303, "ST4000VN008", "那嘶狼", 3.5, "4 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40304, "HDWQ140AZSTA", "N300", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40305, "WD4003FFBX", "旗艦紅標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40306, "ST4000NE001", "那嘶狼 Pro", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40401, "WD60EFAX", "紅標", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40402, "WD60EFRX", "紅標 Plus", 3.5, "6 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40403, "ST6000VN001", "那嘶狼", 3.5, "6 TB", "傳統硬碟", 5400, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40404, "HDWN160AZSTA", "N300", 3.5, "6 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40405, "WD6003FFBX", "旗艦紅標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40406, "ST6000NE000", "那嘶狼 Pro", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40501, "WD80EFAX", "紅標 Plus", 3.5, "8 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40502, "ST8000VN004", "那嘶狼", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40503, "HDWN180AZSTA", "N300", 3.5, "8 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40504, "WD8003FFBX", "旗艦紅標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40505, "ST8000NE001", "那嘶狼 Pro", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40601, "WD101EFAX", "紅標 Plus", 3.5, "10 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40602, "ST10000VN0008", "那嘶狼", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40603, "HDWG11AAZSTA", "N300", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40604, "WD102KFBX", "旗艦紅標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40605, "ST10000NE0008", "那嘶狼 Pro", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40701, "WD120EFAX", "紅標 Plus", 3.5, "12 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40702, "ST12000VN0008", "那嘶狼", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40703, "HDWG21CAZSTA", "N300", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40704, "WD121KFBX", "旗艦紅標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40705, "ST12000NE0008", "那嘶狼 Pro", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40801, "WD140EFFX", "紅標 Plus", 3.5, "14 TB", "傳統硬碟", 5400, 512, "CMR", "WD", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40802, "ST14000VN0008", "那嘶狼", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40803, "MN07ACA14T", "N300", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40804, "WD141KFBX", "旗艦紅標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "NAS設備", 5, "可購得"));
-                hddFullList.add(new HDD_All(40805, "ST14000NE0008", "那嘶狼 Pro", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(40901, "ST16000VN001", "那嘶狼", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(40902, "ST16000NE000", "那嘶狼 Pro", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(41001, "ST18000NE000", "那嘶狼 Pro", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
-
-                hddFullList.add(new HDD_All(50001, "WD10PURZ", "紫標", 3.5, "1 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50002, "ST1000VX005", "監控鷹", 3.5, "1 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50003, "DT01ABA100V", "影音監控碟", 3.5, "1 TB", "傳統硬碟", 5700, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50101, "WD20PURZ", "紫標", 3.5, "2 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50102, "ST2000VX008", "監控鷹", 3.5, "2 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50103, "DT01ABA200V", "影音監控碟", 3.5, "2 TB", "傳統硬碟", 5700, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50201, "WD30PURZ", "紫標", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50202, "ST3000VX009", "監控鷹", 3.5, "3 TB", "傳統硬碟", 5900, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50203, "DT01ABA300V", "影音監控碟", 3.5, "3 TB", "傳統硬碟", 5940, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50301, "WD40PURZ", "紫標", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50302, "ST4000VX007", "監控鷹", 3.5, "4 TB", "傳統硬碟", 5900, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50303, "MD04ABA400V", "影音監控碟", 3.5, "4 TB", "傳統硬碟", 5400, 128, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50401, "WD60PURZ", "紫標", 3.5, "6 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50402, "ST6000VX001", "監控鷹", 3.5, "6 TB", "傳統硬碟", 5400, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50403, "MD06ACA600V", "影音監控碟", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50501, "WD82PURZ", "紫標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50502, "ST8000VX004", "監控鷹", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50503, "ST8000VE001", "監控鷹 AI", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50504, "MD06ACA800V", "影音監控碟", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50601, "WD102PURZ", "紫標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50602, "ST10000VE0008", "監控鷹 AI", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50603, "MD06ACA10TV", "影音監控碟", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50701, "WD121PURZ", "紫標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50702, "ST12000VE001", "監控鷹 AI", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50801, "WD140PURZ", "紫標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(50802, "ST14000VE0008", "監控鷹 AI", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(50901, "ST16000VE002", "監控鷹 AI", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(51001, "WD180PURZ", "紫標", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "監控設備", 3, "可購得"));
-                hddFullList.add(new HDD_All(51002, "ST18000VE002", "監控鷹 AI", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
-
-                hddFullList.add(new HDD_All(60001, "WD10JFCX", "紅標", 2.5, "1 TB", "傳統硬碟", 5400, 16, "CMR", "WD", "NAS設備", 3, "可購得"));
+                hddFullList = putData(hddFullList);
 
                 /*產生JSON字串*/
                 String jsonHddFullList = gson0.toJson(hddFullList);
@@ -458,24 +240,7 @@ public class Java_Gson_Dom4j_Test {
 
                     boolean keepCreateFiles = false;
                     /*檢查目錄是否存在*/
-                    if(File_Conf.checkDir()){
-                        /*檢查特定位置的檔案是否為目錄*/
-                        if(File_Conf.checkFileIsDir()){
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄並非目錄，請退出程式後將該檔案刪除，再次啟動後程式會自動建立所需的目錄");
-                        }
-                    }
-                    else{
-                        if(File_Conf.createFileDir()){
-                            System.out.println("檔案存放目錄成功建立...");
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄無法建立！");
-                        }
-                    }
+                    keepCreateFiles = dirCheck(keepCreateFiles);
 
                     if(keepCreateFiles){
                         File_Conf.writeResultJSON01(jsonHddFullList);
@@ -612,24 +377,7 @@ public class Java_Gson_Dom4j_Test {
 
                     boolean keepCreateFiles = false;
                     /*檢查目錄是否存在*/
-                    if(File_Conf.checkDir()){
-                        /*檢查特定位置的檔案是否為目錄*/
-                        if(File_Conf.checkFileIsDir()){
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄並非目錄，請退出程式後將該檔案刪除，再次啟動後程式會自動建立所需的目錄");
-                        }
-                    }
-                    else{
-                        if(File_Conf.createFileDir()){
-                            System.out.println("檔案存放目錄成功建立...");
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄無法建立！");
-                        }
-                    }
+                    keepCreateFiles = dirCheck(keepCreateFiles);
 
                     if(keepCreateFiles){
                         File_Conf.writeResultCSV10(sb0.toString());
@@ -654,8 +402,28 @@ public class Java_Gson_Dom4j_Test {
                 try{
                     /*嘗試讀檔*/
                     Document doc0 = File_Conf.readResultXML();
+                    /*宣告新xml用的Document*/
+                    Document doc1 = DocumentHelper.createDocument();
+
                     /*取得最外層*/
                     Element rt0 = doc0.getRootElement();
+                    Element rt1 = doc1.addElement(doc0.getRootElement().getName());
+
+                    Element hddItem1 = rt1.addElement("hddInfos");
+                    hddItem1.addElement("usage").addText("筆記型電腦");
+
+                    Element hddItem2 = rt1.addElement("hddInfos");
+                    hddItem2.addElement("usage").addText("桌上型電腦");
+
+                    Element hddItem3 = rt1.addElement("hddInfos");
+                    hddItem3.addElement("usage").addText("資料中心");
+
+                    Element hddItem4 = rt1.addElement("hddInfos");
+                    hddItem4.addElement("usage").addText("NAS設備");
+
+                    Element hddItem5 = rt1.addElement("hddInfos");
+                    hddItem5.addElement("usage").addText("監控設備");
+
                     System.out.println("<" + rt0.getName() + ">");
 
                     /*取得更內層的資料，用陣列接*/
@@ -666,7 +434,6 @@ public class Java_Gson_Dom4j_Test {
                     StringBuilder sb0 = new StringBuilder();
 
                     sb0.append("id,productID,productName,size,storage,type,hddRPM,hddCache,diskType,company,usage,warranty,status");
-
                     for(Node hddItem: hddNode0){
                         System.out.println("  <" + hddItem.getName() + ">");
                         System.out.println("    <id>" + hddItem.selectSingleNode("id").getText() + "</id>");
@@ -728,6 +495,84 @@ public class Java_Gson_Dom4j_Test {
                         tmpHddData.setStatus(hddItem.selectSingleNode("status").getText());
 
                         hddFullList.add(tmpHddData);
+
+                        switch (hddItem.selectSingleNode("usage").getText()){
+                            case "筆記型電腦":
+                                Element hddItemInfo1 = hddItem1.addElement("products");
+                                hddItemInfo1.addElement("id").addText(hddItem.selectSingleNode("id").getText());
+                                hddItemInfo1.addElement("productID").addText(hddItem.selectSingleNode("productID").getText());
+                                hddItemInfo1.addElement("productName").addText(hddItem.selectSingleNode("productName").getText());
+                                hddItemInfo1.addElement("size").addText(hddItem.selectSingleNode("size").getText());
+                                hddItemInfo1.addElement("storage").addText(hddItem.selectSingleNode("storage").getText());
+                                hddItemInfo1.addElement("deviceType").addText(hddItem.selectSingleNode("deviceType").getText());
+                                hddItemInfo1.addElement("hddRPM").addText(hddItem.selectSingleNode("hddRPM").getText());
+                                hddItemInfo1.addElement("hddCache").addText(hddItem.selectSingleNode("hddCache").getText());
+                                hddItemInfo1.addElement("diskType").addText(hddItem.selectSingleNode("diskType").getText());
+                                hddItemInfo1.addElement("company").addText(hddItem.selectSingleNode("company").getText());
+                                hddItemInfo1.addElement("warranty").addText(hddItem.selectSingleNode("warranty").getText());
+                                hddItemInfo1.addElement("status").addText(hddItem.selectSingleNode("status").getText());
+                                break;
+                            case "桌上型電腦":
+                                Element hddItemInfo2 = hddItem2.addElement("products");
+                                hddItemInfo2.addElement("id").addText(hddItem.selectSingleNode("id").getText());
+                                hddItemInfo2.addElement("productID").addText(hddItem.selectSingleNode("productID").getText());
+                                hddItemInfo2.addElement("productName").addText(hddItem.selectSingleNode("productName").getText());
+                                hddItemInfo2.addElement("size").addText(hddItem.selectSingleNode("size").getText());
+                                hddItemInfo2.addElement("storage").addText(hddItem.selectSingleNode("storage").getText());
+                                hddItemInfo2.addElement("deviceType").addText(hddItem.selectSingleNode("deviceType").getText());
+                                hddItemInfo2.addElement("hddRPM").addText(hddItem.selectSingleNode("hddRPM").getText());
+                                hddItemInfo2.addElement("hddCache").addText(hddItem.selectSingleNode("hddCache").getText());
+                                hddItemInfo2.addElement("diskType").addText(hddItem.selectSingleNode("diskType").getText());
+                                hddItemInfo2.addElement("company").addText(hddItem.selectSingleNode("company").getText());
+                                hddItemInfo2.addElement("warranty").addText(hddItem.selectSingleNode("warranty").getText());
+                                hddItemInfo2.addElement("status").addText(hddItem.selectSingleNode("status").getText());
+                                break;
+                            case "資料中心":
+                                Element hddItemInfo3 = hddItem3.addElement("products");
+                                hddItemInfo3.addElement("id").addText(hddItem.selectSingleNode("id").getText());
+                                hddItemInfo3.addElement("productID").addText(hddItem.selectSingleNode("productID").getText());
+                                hddItemInfo3.addElement("productName").addText(hddItem.selectSingleNode("productName").getText());
+                                hddItemInfo3.addElement("size").addText(hddItem.selectSingleNode("size").getText());
+                                hddItemInfo3.addElement("storage").addText(hddItem.selectSingleNode("storage").getText());
+                                hddItemInfo3.addElement("deviceType").addText(hddItem.selectSingleNode("deviceType").getText());
+                                hddItemInfo3.addElement("hddRPM").addText(hddItem.selectSingleNode("hddRPM").getText());
+                                hddItemInfo3.addElement("hddCache").addText(hddItem.selectSingleNode("hddCache").getText());
+                                hddItemInfo3.addElement("diskType").addText(hddItem.selectSingleNode("diskType").getText());
+                                hddItemInfo3.addElement("company").addText(hddItem.selectSingleNode("company").getText());
+                                hddItemInfo3.addElement("warranty").addText(hddItem.selectSingleNode("warranty").getText());
+                                hddItemInfo3.addElement("status").addText(hddItem.selectSingleNode("status").getText());
+                                break;
+                            case "NAS設備":
+                                Element hddItemInfo4 = hddItem4.addElement("products");
+                                hddItemInfo4.addElement("id").addText(hddItem.selectSingleNode("id").getText());
+                                hddItemInfo4.addElement("productID").addText(hddItem.selectSingleNode("productID").getText());
+                                hddItemInfo4.addElement("productName").addText(hddItem.selectSingleNode("productName").getText());
+                                hddItemInfo4.addElement("size").addText(hddItem.selectSingleNode("size").getText());
+                                hddItemInfo4.addElement("storage").addText(hddItem.selectSingleNode("storage").getText());
+                                hddItemInfo4.addElement("deviceType").addText(hddItem.selectSingleNode("deviceType").getText());
+                                hddItemInfo4.addElement("hddRPM").addText(hddItem.selectSingleNode("hddRPM").getText());
+                                hddItemInfo4.addElement("hddCache").addText(hddItem.selectSingleNode("hddCache").getText());
+                                hddItemInfo4.addElement("diskType").addText(hddItem.selectSingleNode("diskType").getText());
+                                hddItemInfo4.addElement("company").addText(hddItem.selectSingleNode("company").getText());
+                                hddItemInfo4.addElement("warranty").addText(hddItem.selectSingleNode("warranty").getText());
+                                hddItemInfo4.addElement("status").addText(hddItem.selectSingleNode("status").getText());
+                                break;
+                            case "監控設備":
+                                Element hddItemInfo5 = hddItem5.addElement("products");
+                                hddItemInfo5.addElement("id").addText(hddItem.selectSingleNode("id").getText());
+                                hddItemInfo5.addElement("productID").addText(hddItem.selectSingleNode("productID").getText());
+                                hddItemInfo5.addElement("productName").addText(hddItem.selectSingleNode("productName").getText());
+                                hddItemInfo5.addElement("size").addText(hddItem.selectSingleNode("size").getText());
+                                hddItemInfo5.addElement("storage").addText(hddItem.selectSingleNode("storage").getText());
+                                hddItemInfo5.addElement("deviceType").addText(hddItem.selectSingleNode("deviceType").getText());
+                                hddItemInfo5.addElement("hddRPM").addText(hddItem.selectSingleNode("hddRPM").getText());
+                                hddItemInfo5.addElement("hddCache").addText(hddItem.selectSingleNode("hddCache").getText());
+                                hddItemInfo5.addElement("diskType").addText(hddItem.selectSingleNode("diskType").getText());
+                                hddItemInfo5.addElement("company").addText(hddItem.selectSingleNode("company").getText());
+                                hddItemInfo5.addElement("warranty").addText(hddItem.selectSingleNode("warranty").getText());
+                                hddItemInfo5.addElement("status").addText(hddItem.selectSingleNode("status").getText());
+                                break;
+                        }
                     }
 
                     System.out.println("</" + rt0.getName() + ">");
@@ -739,24 +584,7 @@ public class Java_Gson_Dom4j_Test {
 
                     boolean keepCreateFiles = false;
                     /*檢查目錄是否存在*/
-                    if(File_Conf.checkDir()){
-                        /*檢查特定位置的檔案是否為目錄*/
-                        if(File_Conf.checkFileIsDir()){
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄並非目錄，請退出程式後將該檔案刪除，再次啟動後程式會自動建立所需的目錄");
-                        }
-                    }
-                    else{
-                        if(File_Conf.createFileDir()){
-                            System.out.println("檔案存放目錄成功建立...");
-                            keepCreateFiles = true;
-                        }
-                        else{
-                            System.out.println("檔案存放目錄無法建立！");
-                        }
-                    }
+                    keepCreateFiles = dirCheck(keepCreateFiles);
 
                     if(keepCreateFiles){
                         File_Conf.writeResultCSV20(sb0.toString());
@@ -764,6 +592,9 @@ public class Java_Gson_Dom4j_Test {
 
                         File_Conf.writeResultJSON21(jsonHddFullList);
                         System.out.println("指定的工作二已完成...，產生的檔案位於：" + System.lineSeparator() + File_Conf.getResultJSON21Path());
+
+                        File_Conf.writeResultXML24(doc1);
+                        System.out.println("指定的工作三已完成...，產生的檔案位於：" + System.lineSeparator() + File_Conf.getResultXML24Path());
                     }
                 } catch(IOException | DocumentException ioE){
                     ioE.printStackTrace();
@@ -807,11 +638,394 @@ public class Java_Gson_Dom4j_Test {
 
             if(mode6){
                 System.out.println(System.lineSeparator() + "讀取結果為：");
+                try {
+                    /*嘗試讀檔*/
+                    Document doc0 = File_Conf.readResultXML24();
+                    /*取得最外層*/
+                    Element rt0 = doc0.getRootElement();
+                    /*取得更內層的資料，用陣列接*/
+                    List<Node> hddNode0 = doc0.selectNodes("/HDD/hddInfos" );
+
+                    System.out.println("<" + rt0.getName() + ">");
+                    for(Node hddItem: hddNode0){
+                        System.out.println("  <" + hddItem.getName() + ">");
+                        System.out.println("    <usage>" + hddItem.selectSingleNode("usage").getText() + "</usage>");
+
+                        switch(hddItem.selectSingleNode("usage").getText()){
+                            case "筆記型電腦":
+                                List<Node> hddInfo1 = hddItem.selectNodes("products");
+                                for(Node hddInfoNode1: hddInfo1){
+                                    System.out.println("    <" + hddInfoNode1.getName() + ">");
+                                    System.out.println("      <id>" + hddInfoNode1.selectSingleNode("id").getText() + "</id>");
+                                    System.out.println("      <productID>" + hddInfoNode1.selectSingleNode("productID").getText() + "</productID>");
+                                    System.out.println("      <productName>" + hddInfoNode1.selectSingleNode("productName").getText() + "</productName>");
+                                    System.out.println("      <size>" + hddInfoNode1.selectSingleNode("size").getText() + "</size>");
+                                    System.out.println("      <storage>" + hddInfoNode1.selectSingleNode("storage").getText() + "</storage>");
+                                    System.out.println("      <deviceType>" + hddInfoNode1.selectSingleNode("deviceType").getText() + "</deviceType>");
+                                    System.out.println("      <hddRPM>" + hddInfoNode1.selectSingleNode("hddRPM").getText() + "</hddRPM>");
+                                    System.out.println("      <hddCache>" + hddInfoNode1.selectSingleNode("hddCache").getText() + "</hddCache>");
+                                    System.out.println("      <diskType>" + hddInfoNode1.selectSingleNode("diskType").getText() + "</diskType>");
+                                    System.out.println("      <company>" + hddInfoNode1.selectSingleNode("company").getText() + "</company>");
+                                    System.out.println("      <warranty>" + hddInfoNode1.selectSingleNode("warranty").getText() + "</warranty>");
+                                    System.out.println("      <status>" + hddInfoNode1.selectSingleNode("status").getText() + "</status>");
+                                    System.out.println("    </" + hddInfoNode1.getName() + ">");
+                                }
+                                break;
+                            case "桌上型電腦":
+                                List<Node> hddInfo2 = hddItem.selectNodes("products");
+                                for(Node hddInfoNode2: hddInfo2){
+                                    System.out.println("    <" + hddInfoNode2.getName() + ">");
+                                    System.out.println("      <id>" + hddInfoNode2.selectSingleNode("id").getText() + "</id>");
+                                    System.out.println("      <productID>" + hddInfoNode2.selectSingleNode("productID").getText() + "</productID>");
+                                    System.out.println("      <productName>" + hddInfoNode2.selectSingleNode("productName").getText() + "</productName>");
+                                    System.out.println("      <size>" + hddInfoNode2.selectSingleNode("size").getText() + "</size>");
+                                    System.out.println("      <storage>" + hddInfoNode2.selectSingleNode("storage").getText() + "</storage>");
+                                    System.out.println("      <deviceType>" + hddInfoNode2.selectSingleNode("deviceType").getText() + "</deviceType>");
+                                    System.out.println("      <hddRPM>" + hddInfoNode2.selectSingleNode("hddRPM").getText() + "</hddRPM>");
+                                    System.out.println("      <hddCache>" + hddInfoNode2.selectSingleNode("hddCache").getText() + "</hddCache>");
+                                    System.out.println("      <diskType>" + hddInfoNode2.selectSingleNode("diskType").getText() + "</diskType>");
+                                    System.out.println("      <company>" + hddInfoNode2.selectSingleNode("company").getText() + "</company>");
+                                    System.out.println("      <warranty>" + hddInfoNode2.selectSingleNode("warranty").getText() + "</warranty>");
+                                    System.out.println("      <status>" + hddInfoNode2.selectSingleNode("status").getText() + "</status>");
+                                    System.out.println("    </" + hddInfoNode2.getName() + ">");
+                                }
+                                break;
+                            case "資料中心":
+                                List<Node> hddInfo3 = hddItem.selectNodes("products");
+                                for(Node hddInfoNode3: hddInfo3){
+                                    System.out.println("    <" + hddInfoNode3.getName() + ">");
+                                    System.out.println("      <id>" + hddInfoNode3.selectSingleNode("id").getText() + "</id>");
+                                    System.out.println("      <productID>" + hddInfoNode3.selectSingleNode("productID").getText() + "</productID>");
+                                    System.out.println("      <productName>" + hddInfoNode3.selectSingleNode("productName").getText() + "</productName>");
+                                    System.out.println("      <size>" + hddInfoNode3.selectSingleNode("size").getText() + "</size>");
+                                    System.out.println("      <storage>" + hddInfoNode3.selectSingleNode("storage").getText() + "</storage>");
+                                    System.out.println("      <deviceType>" + hddInfoNode3.selectSingleNode("deviceType").getText() + "</deviceType>");
+                                    System.out.println("      <hddRPM>" + hddInfoNode3.selectSingleNode("hddRPM").getText() + "</hddRPM>");
+                                    System.out.println("      <hddCache>" + hddInfoNode3.selectSingleNode("hddCache").getText() + "</hddCache>");
+                                    System.out.println("      <diskType>" + hddInfoNode3.selectSingleNode("diskType").getText() + "</diskType>");
+                                    System.out.println("      <company>" + hddInfoNode3.selectSingleNode("company").getText() + "</company>");
+                                    System.out.println("      <warranty>" + hddInfoNode3.selectSingleNode("warranty").getText() + "</warranty>");
+                                    System.out.println("      <status>" + hddInfoNode3.selectSingleNode("status").getText() + "</status>");
+                                    System.out.println("    </" + hddInfoNode3.getName() + ">");
+                                }
+                                break;
+                            case "NAS設備":
+                                List<Node> hddInfo4 = hddItem.selectNodes("products");
+                                for(Node hddInfoNode4: hddInfo4){
+                                    System.out.println("    <" + hddInfoNode4.getName() + ">");
+                                    System.out.println("      <id>" + hddInfoNode4.selectSingleNode("id").getText() + "</id>");
+                                    System.out.println("      <productID>" + hddInfoNode4.selectSingleNode("productID").getText() + "</productID>");
+                                    System.out.println("      <productName>" + hddInfoNode4.selectSingleNode("productName").getText() + "</productName>");
+                                    System.out.println("      <size>" + hddInfoNode4.selectSingleNode("size").getText() + "</size>");
+                                    System.out.println("      <storage>" + hddInfoNode4.selectSingleNode("storage").getText() + "</storage>");
+                                    System.out.println("      <deviceType>" + hddInfoNode4.selectSingleNode("deviceType").getText() + "</deviceType>");
+                                    System.out.println("      <hddRPM>" + hddInfoNode4.selectSingleNode("hddRPM").getText() + "</hddRPM>");
+                                    System.out.println("      <hddCache>" + hddInfoNode4.selectSingleNode("hddCache").getText() + "</hddCache>");
+                                    System.out.println("      <diskType>" + hddInfoNode4.selectSingleNode("diskType").getText() + "</diskType>");
+                                    System.out.println("      <company>" + hddInfoNode4.selectSingleNode("company").getText() + "</company>");
+                                    System.out.println("      <warranty>" + hddInfoNode4.selectSingleNode("warranty").getText() + "</warranty>");
+                                    System.out.println("      <status>" + hddInfoNode4.selectSingleNode("status").getText() + "</status>");
+                                    System.out.println("    </" + hddInfoNode4.getName() + ">");
+                                }
+                                break;
+                            case "監控設備":
+                                List<Node> hddInfo5 = hddItem.selectNodes("products");
+                                for(Node hddInfoNode5: hddInfo5){
+                                    System.out.println("    <" + hddInfoNode5.getName() + ">");
+                                    System.out.println("      <id>" + hddInfoNode5.selectSingleNode("id").getText() + "</id>");
+                                    System.out.println("      <productID>" + hddInfoNode5.selectSingleNode("productID").getText() + "</productID>");
+                                    System.out.println("      <productName>" + hddInfoNode5.selectSingleNode("productName").getText() + "</productName>");
+                                    System.out.println("      <size>" + hddInfoNode5.selectSingleNode("size").getText() + "</size>");
+                                    System.out.println("      <storage>" + hddInfoNode5.selectSingleNode("storage").getText() + "</storage>");
+                                    System.out.println("      <deviceType>" + hddInfoNode5.selectSingleNode("deviceType").getText() + "</deviceType>");
+                                    System.out.println("      <hddRPM>" + hddInfoNode5.selectSingleNode("hddRPM").getText() + "</hddRPM>");
+                                    System.out.println("      <hddCache>" + hddInfoNode5.selectSingleNode("hddCache").getText() + "</hddCache>");
+                                    System.out.println("      <diskType>" + hddInfoNode5.selectSingleNode("diskType").getText() + "</diskType>");
+                                    System.out.println("      <company>" + hddInfoNode5.selectSingleNode("company").getText() + "</company>");
+                                    System.out.println("      <warranty>" + hddInfoNode5.selectSingleNode("warranty").getText() + "</warranty>");
+                                    System.out.println("      <status>" + hddInfoNode5.selectSingleNode("status").getText() + "</status>");
+                                    System.out.println("    </" + hddInfoNode5.getName() + ">");
+                                }
+                                break;
+                        }
+
+                        System.out.println("  </" + hddItem.getName() + ">");
+                    }
+
+                    System.out.println("</" + rt0.getName() + ">");
+                } catch (DocumentException | IOException e){
+                    e.printStackTrace();
+                } finally {
+                    System.out.println();
+                    mode6 = false;
+                }
             }
         }
 
         System.out.println(System.lineSeparator() + "程式已結束...");
         /*關閉Scanner*/
         scan.close();
+    }
+
+    /**
+     * 填入資料
+     *
+     * @param hddFullList 空陣列
+     *
+     * @return 填完資料的陣列
+     */
+    public static List<HDD_All> putData(List<HDD_All> hddFullList){
+
+        hddFullList.add(new HDD_All(10001, "WD5000LPCX", "藍標", 2.5, "500 GB", "傳統硬碟", 5400, 16, "CMR", "WD", "筆記型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(10002, "ST500LM030", "新梭魚", 2.5, "500 GB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10003, "MQ01ACF050", "筆電型", 2.5, "500 GB", "傳統硬碟", 7200, 16, "CMR", "Toshiba", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10004, "WD5000LPLX", "黑標", 2.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "WD", "筆記型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(10005, "ST500LM034", "新梭魚 Pro", 2.5, "500 GB", "傳統硬碟", 7200, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(10006, "ST500LX025", "火梭魚", 2.5, "500 GB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(10101, "WD10SPZX", "藍標", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "WD", "筆記型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(10102, "ST1000LM048", "新梭魚", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10103, "MQ04ABF100", "筆電型", 2.5, "1 TB", "傳統硬碟", 5400, 128, "SMR", "Toshiba", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10104, "WD10J31X", "藍標 SSHD", 2.5, "1 TB", "固態混合硬碟", 5400, 64, "CMR", "WD", "筆記型電腦", 3, "已停產"));
+        hddFullList.add(new HDD_All(10105, "WD10JPLX", "黑標", 2.5, "1 TB", "傳統硬碟", 7200, 32, "CMR", "WD", "筆記型電腦", 5, "已停產"));
+        hddFullList.add(new HDD_All(10106, "WD10SPSX", "黑標", 2.5, "1 TB", "傳統硬碟", 7200, 64, "SMR", "WD", "筆記型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(10107, "ST1000LM049", "新梭魚 Pro", 2.5, "1 TB", "傳統硬碟", 7200, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(10108, "ST1000LX015", "火梭魚", 2.5, "1 TB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(10109, "WD1001X06XDTL", "黑標 2 Dual Drive", 2.5, "128 GB + 1 TB", "混和架構硬碟", 5400, 8, "CMR", "WD", "筆記型電腦", 5, "已停產"));
+
+        hddFullList.add(new HDD_All(10201, "WD20SPZX", "藍標", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "WD", "筆記型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(10202, "ST2000LM015", "新梭魚", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10203, "MQ04ABD200", "筆電型", 2.5, "2 TB", "傳統硬碟", 5400, 128, "SMR", "Toshiba", "筆記型電腦", 2, "可購得"));
+        hddFullList.add(new HDD_All(10204, "ST2000LX001", "火梭魚", 2.5, "2 TB", "固態混合硬碟", 5400, 128, "SMR", "Seagate", "筆記型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20001, "WD5000AZLX", "藍標", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20002, "ST500DM009", "新梭魚", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20003, "DT01ACA050", "桌上型", 3.5, "500 GB", "傳統硬碟", 7200, 32, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20004, "WD5003AZEX", "黑標", 3.5, "500 GB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20005, "WD5000HHTZ", "迅猛龍", 3.5, "500 GB", "傳統硬碟", 10000, 64, "CMR", "WD", "桌上型電腦", 5, "已停產"));
+
+        hddFullList.add(new HDD_All(20101, "WD10EZEX", "藍標", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20102, "ST1000DM010", "新梭魚", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20103, "DT01ACA100", "桌上型", 3.5, "1 TB", "傳統硬碟", 7200, 32, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20104, "WD1003FZEX", "黑標", 3.5, "1 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20105, "ST1000DX002", "火梭魚", 3.5, "1 TB", "固態混合硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20106, "WD1000DHTZ", "迅猛龍", 3.5, "1 TB", "傳統硬碟", 10000, 64, "CMR", "WD", "桌上型電腦", 5, "已停產"));
+
+        hddFullList.add(new HDD_All(20201, "WD20EZAZ", "藍標", 3.5, "2 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20202, "ST2000DM008", "新梭魚", 3.5, "2 TB", "傳統硬碟", 7200, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20203, "DT01ACA200", "桌上型", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20204, "WD2003FZEX", "黑標", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20205, "ST2000DX002", "火梭魚", 3.5, "2 TB", "固態混合硬碟", 7200, 64, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20206, "ST2000DM009", "新梭魚 Pro", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20207, "WD30EZRZ", "藍標", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20208, "ST3000DM007", "新梭魚", 3.5, "3 TB", "傳統硬碟", 7200, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20209, "DT01ACA300", "桌上型", 3.5, "3 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(20301, "WD40EZRZ", "藍標", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20302, "ST4000DM004", "新梭魚", 3.5, "4 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20303, "MD04ACA400", "桌上型", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20304, "WD40E31X", "藍標 SSHD", 3.5, "4 TB", "固態混和硬碟", 5400, 64, "CMR", "WD", "桌上型電腦", 3, "已停產"));
+        hddFullList.add(new HDD_All(20305, "WD4005FZBX", "黑標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20306, "ST4000DM006", "新梭魚 Pro", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20401, "WD60EZAZ", "藍標", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20402, "ST6000DM003", "新梭魚", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20403, "MD06ACA600", "桌上型", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20404, "WD6003FZBX", "黑標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20405, "ST6000DM004", "新梭魚 Pro", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20501, "ST8000DM004", "新梭魚", 3.5, "8 TB", "傳統硬碟", 5400, 256, "SMR", "Seagate", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20502, "MD06ACA800", "桌上型", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20503, "WD8001FZBX", "黑標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20504, "ST8000DM0004", "新梭魚 Pro", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20601, "MD06ACA10T", "桌上型", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "桌上型電腦", 3, "可購得"));
+        hddFullList.add(new HDD_All(20602, "WD101FZBX", "黑標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "桌上型電腦", 5, "可購得"));
+        hddFullList.add(new HDD_All(20603, "ST10000DM001", "新梭魚 Pro", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20701, "ST12000DM001", "新梭魚 Pro", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(20801, "ST14000DM001", "新梭魚 Pro", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "桌上型電腦", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30001, "WD1005FBYZ", "金標", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30002, "ST1000NM008", "企業號 7E2", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30003, "HUS722T1TALA604", "UltraStar DC HA210", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30004, "MG04ACA100N", "企業碟", 3.5, "1 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30101, "WD2005FBYZ", "金標", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30102, "ST2000NM008", "企業號 7E2", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30103, "HUS722T2TALA604", "UltraStar DC HA210", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30104, "MG04ACA200E", "企業碟", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30201, "ST3000NM000A", "企業號 7E8", 3.5, "3 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30202, "MG04ACA300E", "企業碟", 3.5, "3 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30203, "WD4003FRYZ", "金標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30204, "ST4000NM002A", "企業號 7E8", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30205, "HUS726T4TALA6L4", "UltraStar DC HC310", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30206, "MG04ACA400E", "企業碟", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30301, "WD6003FRYZ", "金標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30302, "ST6000NM021A", "企業號 7E8", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30303, "HUS726T6TALE6L4", "UltraStar DC HC310", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30304, "MG06ACA600E", "企業碟", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30401, "WD8004FRYZ", "金標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30402, "ST8000NM00A", "企業號 7E8", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30403, "HUS728T8TALE6L4", "UltraStar DC HC320", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30404, "MG06ACA800E", "企業碟", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30501, "WD102KRYZ", "金標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30502, "ST10000NM001G", "企業號 X10", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30503, "HUH721010ALE604", "UltraStar DC HC510", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30504, "MG06ACA10TE", "企業碟", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30601, "WD121KRYZ", "金標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30602, "ST12000NM001G", "企業號 X12", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30603, "HUH721212ALE604", "UltraStar DC HC520", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30604, "MG07ACA12TE", "企業碟", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30701, "WD141KRYZ", "金標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30702, "ST14000NM001G", "企業號 X14", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30703, "WUH721414ALE6L4", "UltraStar DC HC530", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30704, "MG07ACA14TE", "企業碟", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30801, "WD161KRYZ", "金標", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30802, "ST16000NM001G", "企業號 X16", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30803, "WUH721816ALE6L4", "UltraStar DC HC550", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30804, "MG08ACA16TE", "企業碟", 3.5, "16 TB", "傳統硬碟", 7200, 512, "CMR", "Toshiba", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(30901, "WD181KRYZ", "金標", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30902, "ST18000NM000J", "企業號 X18", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "資料中心", 5, "可購得"));
+        hddFullList.add(new HDD_All(30903, "WUH721818ALE6L4", "UltraStar DC HC550", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "資料中心", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40001, "WD10EFRX", "紅標 Plus", 3.5, "1 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40002, "ST1000VN002", "那嘶狼", 3.5, "1 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(40101, "WD20EFAX", "紅標", 3.5, "2 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40102, "WD20EFRX", "紅標 Plus", 3.5, "2 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40103, "ST2000VN004", "那嘶狼", 3.5, "2 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40104, "WD20FFSX", "旗艦紅標", 3.5, "2 TB", "傳統硬碟", 7200, 64, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40105, "ST2000NE0025", "那嘶狼 Pro", 3.5, "2 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40201, "WD30EFAX", "紅標", 3.5, "3 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40202, "WD30EFRX", "紅標 Plus", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40203, "ST3000VN007", "那嘶狼", 3.5, "3 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(40301, "WD40EFAX", "紅標", 3.5, "4 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40302, "WD40EFRX", "紅標 Plus", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40303, "ST4000VN008", "那嘶狼", 3.5, "4 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40304, "HDWQ140AZSTA", "N300", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40305, "WD4003FFBX", "旗艦紅標", 3.5, "4 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40306, "ST4000NE001", "那嘶狼 Pro", 3.5, "4 TB", "傳統硬碟", 7200, 128, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40401, "WD60EFAX", "紅標", 3.5, "6 TB", "傳統硬碟", 5400, 256, "SMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40402, "WD60EFRX", "紅標 Plus", 3.5, "6 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40403, "ST6000VN001", "那嘶狼", 3.5, "6 TB", "傳統硬碟", 5400, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40404, "HDWN160AZSTA", "N300", 3.5, "6 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40405, "WD6003FFBX", "旗艦紅標", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40406, "ST6000NE000", "那嘶狼 Pro", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40501, "WD80EFAX", "紅標 Plus", 3.5, "8 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40502, "ST8000VN004", "那嘶狼", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40503, "HDWN180AZSTA", "N300", 3.5, "8 TB", "傳統硬碟", 7200, 128, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40504, "WD8003FFBX", "旗艦紅標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40505, "ST8000NE001", "那嘶狼 Pro", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40601, "WD101EFAX", "紅標 Plus", 3.5, "10 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40602, "ST10000VN0008", "那嘶狼", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40603, "HDWG11AAZSTA", "N300", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40604, "WD102KFBX", "旗艦紅標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40605, "ST10000NE0008", "那嘶狼 Pro", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40701, "WD120EFAX", "紅標 Plus", 3.5, "12 TB", "傳統硬碟", 5400, 256, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40702, "ST12000VN0008", "那嘶狼", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40703, "HDWG21CAZSTA", "N300", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40704, "WD121KFBX", "旗艦紅標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40705, "ST12000NE0008", "那嘶狼 Pro", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40801, "WD140EFFX", "紅標 Plus", 3.5, "14 TB", "傳統硬碟", 5400, 512, "CMR", "WD", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40802, "ST14000VN0008", "那嘶狼", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40803, "MN07ACA14T", "N300", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40804, "WD141KFBX", "旗艦紅標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "NAS設備", 5, "可購得"));
+        hddFullList.add(new HDD_All(40805, "ST14000NE0008", "那嘶狼 Pro", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(40901, "ST16000VN001", "那嘶狼", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(40902, "ST16000NE000", "那嘶狼 Pro", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(41001, "ST18000NE000", "那嘶狼 Pro", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "NAS設備", 5, "可購得"));
+
+        hddFullList.add(new HDD_All(50001, "WD10PURZ", "紫標", 3.5, "1 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50002, "ST1000VX005", "監控鷹", 3.5, "1 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50003, "DT01ABA100V", "影音監控碟", 3.5, "1 TB", "傳統硬碟", 5700, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50101, "WD20PURZ", "紫標", 3.5, "2 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50102, "ST2000VX008", "監控鷹", 3.5, "2 TB", "傳統硬碟", 5900, 64, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50103, "DT01ABA200V", "影音監控碟", 3.5, "2 TB", "傳統硬碟", 5700, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50201, "WD30PURZ", "紫標", 3.5, "3 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50202, "ST3000VX009", "監控鷹", 3.5, "3 TB", "傳統硬碟", 5900, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50203, "DT01ABA300V", "影音監控碟", 3.5, "3 TB", "傳統硬碟", 5940, 32, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50301, "WD40PURZ", "紫標", 3.5, "4 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50302, "ST4000VX007", "監控鷹", 3.5, "4 TB", "傳統硬碟", 5900, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50303, "MD04ABA400V", "影音監控碟", 3.5, "4 TB", "傳統硬碟", 5400, 128, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50401, "WD60PURZ", "紫標", 3.5, "6 TB", "傳統硬碟", 5400, 64, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50402, "ST6000VX001", "監控鷹", 3.5, "6 TB", "傳統硬碟", 5400, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50403, "MD06ACA600V", "影音監控碟", 3.5, "6 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50501, "WD82PURZ", "紫標", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50502, "ST8000VX004", "監控鷹", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50503, "ST8000VE001", "監控鷹 AI", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50504, "MD06ACA800V", "影音監控碟", 3.5, "8 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50601, "WD102PURZ", "紫標", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50602, "ST10000VE0008", "監控鷹 AI", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50603, "MD06ACA10TV", "影音監控碟", 3.5, "10 TB", "傳統硬碟", 7200, 256, "CMR", "Toshiba", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50701, "WD121PURZ", "紫標", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50702, "ST12000VE001", "監控鷹 AI", 3.5, "12 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50801, "WD140PURZ", "紫標", 3.5, "14 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(50802, "ST14000VE0008", "監控鷹 AI", 3.5, "14 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(50901, "ST16000VE002", "監控鷹 AI", 3.5, "16 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(51001, "WD180PURZ", "紫標", 3.5, "18 TB", "傳統硬碟", 7200, 512, "CMR", "WD", "監控設備", 3, "可購得"));
+        hddFullList.add(new HDD_All(51002, "ST18000VE002", "監控鷹 AI", 3.5, "18 TB", "傳統硬碟", 7200, 256, "CMR", "Seagate", "監控設備", 3, "可購得"));
+
+        hddFullList.add(new HDD_All(60001, "WD10JFCX", "紅標", 2.5, "1 TB", "傳統硬碟", 5400, 16, "CMR", "WD", "NAS設備", 3, "可購得"));
+
+        return hddFullList;
+    }
+
+    /**
+     * 檢查data目錄
+     *
+     * @param keepCreateFiles boolean gate，預設為false
+     *
+     * @return true代表條件符合，可以繼續向下執行
+     */
+    public static boolean dirCheck(boolean keepCreateFiles){
+        if(File_Conf.checkDir()){
+            /*檢查特定位置的檔案是否為目錄*/
+            if(File_Conf.checkFileIsDir()){
+                keepCreateFiles = true;
+            }
+            else{
+                System.out.println("檔案存放目錄並非目錄，請退出程式後將該檔案刪除，再次啟動後程式會自動建立所需的目錄");
+            }
+        }
+        else{
+            if(File_Conf.createFileDir()){
+                System.out.println("檔案存放目錄成功建立...");
+                keepCreateFiles = true;
+            }
+            else{
+                System.out.println("檔案存放目錄無法建立！");
+            }
+        }
+
+        return keepCreateFiles;
     }
 }

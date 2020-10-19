@@ -401,6 +401,31 @@ public class File_Conf {
     }
 
     /**
+     * 讀取xml檔
+     *
+     * @return 回傳檔案內容(Document)
+     *
+     * @throws IOException 拋出IO類的異常到呼叫處處理
+     */
+    /*讀取xml檔*/
+    protected static Document readResultXML24() throws IOException, DocumentException {
+        FileInputStream fis0;
+        InputStreamReader isr0;
+        SAXReader saxR0;
+        Document doc0;
+
+        fis0 = new FileInputStream(resultF4);
+        isr0 = new InputStreamReader(fis0, StandardCharsets.UTF_8);
+        saxR0 = new SAXReader();
+        doc0 = saxR0.read(isr0);
+
+        fis0.close();
+        isr0.close();
+
+        return doc0;
+    }
+
+    /**
      * 確認輸出csv檔、json檔、xml檔所需的目錄是否存在
      *
      * @return 回傳true代表目錄已存在
